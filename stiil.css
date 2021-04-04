@@ -1,0 +1,426 @@
+/* pealkirja css ala*/
+.pais {
+    height: 250px;
+}
+.tuhihead {
+    height: 60px;
+    width: 100%;
+}
+.pealkiri {
+    width: 40%;
+}
+.peal {
+    font-family: "Nova Square";
+    font-size: 48px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 80px;
+    color:black;
+}
+.punane {
+    width: 6%;
+    background-color: #D48B8B;
+    height: 250px;
+}
+.sinine {
+    width: 6%;
+    background-color: #A9CDE0;
+    height: 250px;
+}
+.lilla {
+    width: 18%;
+    background-color: #9695A8;
+    height: 250px;
+}
+
+/*navi css ala*/
+.navi {
+    background-color: #489CC3;
+}
+.navilink {
+    width: 200px;
+    background-color: white;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*sisu tuleb siia*/
+.sisu {
+    height: 550px;
+}
+.kastidele{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.kast1{
+    margin-top: 10px;
+    background-color:#D48B8B;
+    height:400px;
+    width:20%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.kast10{
+    margin-top: 10px;
+    background-color:#D48B8B;
+    height:400px;
+    width:20%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 60px;
+    color: black;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+    background-color: white;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.kast2{
+    background-color:#4F9BC0;
+    height:230px;
+    width:100%;
+    margin-bottom: 10px;
+    margin-top: -50px;
+}
+.kast3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left:20%;
+    background-color:white;
+    height:50px;
+    width:70%;
+}
+.kast30{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left:20%;
+    background-color:white;
+    height:50px;
+    width:70%;
+}
+.kast4{
+    margin-top: 20px;
+    
+}
+.tuhikast {
+    height:100px;
+}
+.teenuspilt {
+    height:200px;
+    width: 70%;
+    margin-left: 15%;
+}
+.avalehtpilt {
+    height:200px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.teenuskirjeldus {
+    color: black;
+}
+/*jalus sisu*/
+.jalus {
+    background-color: #489CC3;
+    width: 100%;
+    height: 180px;
+}
+.jalusvasak{
+    width: 44%;
+    height: 180px;
+}
+.jalusparem {
+    width: 42%;
+    height: 180px;
+}
+.keskel {
+    width: 16%;
+    height: 180px;
+}
+.keskeltuhi {
+    height: 50px;
+}
+.broneeri {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+.bronn {
+    padding-top: 15px;
+    text-align: center;
+    color:black
+}
+.vasaktuhi {
+    width: 15%;
+}
+.meediacontainer {
+    padding-top: 30px;
+    height: 180px;
+    width: 300px;
+}
+.ikoon {
+    height: 40px;
+    padding-left: 20px;
+}
+.paremtuhi {
+    width: 60%;
+}
+.meie {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+
+@media all{
+    p:empty:before{content:"​";}
+    }
+
+    @media all{
+    a,div,h1,h3,p{margin:0;padding:0;border:0;outline:0;font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;vertical-align:baseline;background:transparent;}
+    :focus{outline:0;}
+
+    a,a:hover{text-decoration:none;}
+    p{padding-bottom:1em;}
+    p:not(.has-background):last-of-type{padding-bottom:0;}
+    h1,h3{color:#333;padding-bottom:10px;line-height:1em;font-weight:500;}
+    h1{font-size:30px;}
+    h3{font-size:22px;}
+    @media (min-width:981px){
+    .et_pb_gutters3 .et_pb_column{margin-right:5.5%;}
+    .et_pb_gutters3 .et_pb_column_1_3{width:29.6667%;}
+    .et_pb_gutters3 .et_pb_column_1_3 .et_pb_module{margin-bottom:9.27%;}
+    }
+    @media (max-width:479px){
+    .et_pb_column{width:100%!important;}
+    }
+    
+    
+    .et_pb_button{font-size:20px;font-weight:500;padding:.3em 1em;line-height:1.7em!important;background-color:transparent;background-size:cover;background-position:50%;background-repeat:no-repeat;border:2px solid;border-radius:3px;-webkit-transition-duration:.2s;transition-duration:.2s;-webkit-transition-property:all!important;transition-property:all!important;}
+    .et_pb_button{position:relative;}
+    
+    
+   
+    .et_pb_button:after,.et_pb_button:before{font-size:32px;line-height:1em;content:"\35";opacity:0;position:absolute;margin-left:-1em;-webkit-transition:all .2s;transition:all .2s;text-transform:none;-webkit-font-feature-settings:"kern" off;font-feature-settings:"kern" off;font-variant:none;font-style:normal;font-weight:400;text-shadow:none;}
+    
+    .et_pb_button{color: black;}
+    .et_pb_button{background-color: white;}
+    .et_pb_column_1_3 h1{font-size:26px;}
+    .et_pb_column_1_3 h3{font-size:20px;}
+    .et_pb_text{word-wrap:break-word;}
+    .et_pb_row{width:80%;max-width:1080px;margin:auto;position:relative;}
+    .et_pb_column{float:left;background-size:cover;background-position:50%;position:relative;z-index:2;min-height:1px;}
+    .et_pb_css_mix_blend_mode_passthrough{mix-blend-mode:unset!important;}
+    .et_pb_column,.et_pb_module,.et_pb_row{background-size:cover;background-position:50%;background-repeat:no-repeat;}
+    .et_pb_button_module_wrapper.et_pb_button_alignment_center{text-align:center;}
+    .et_pb_button_module_wrapper>a{display:inline-block;}
+    .et_pb_row:after{content:"";display:block;clear:both;visibility:hidden;line-height:0;height:0;width:0;}
+    .et_pb_section{background-position:50%;background-size:100%;background-size:cover;}
+    .et_pb_text>:last-child{padding-bottom:0;}
+    .et_pb_text_inner{position:relative;}
+    .et_pb_text_align_left{text-align:left;}
+    .et_pb_text_align_justified{text-align:justify;}
+    .et_pb_section{position:relative;background-color:#fff;}
+    .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{margin-right:0!important;}
+    .et_pb_module{-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-duration:.2s;animation-duration:.2s;}
+    @media (min-width:981px){
+    .et_pb_section{padding:4% 0;}
+    .et_pb_row{padding:2% 0;}
+    .et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child{margin-bottom:0;}
+    .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{margin-right:0!important;}
+    }
+    @media (max-width:980px){
+    .et_pb_column{width:100%;margin-bottom:30px;}
+    .et_pb_section{padding:50px 0;}
+    .et_pb_row{padding:30px 0;}
+    .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{margin-bottom:0;}
+    .et_pb_column .et_pb_module{margin-bottom:30px;}
+    .et_pb_row .et_pb_column .et_pb_module:last-chwild{margin-bottom:0;}
+    .et_pb_row{max-width:1080px;}
+    }
+    }
+
+    .et_pb_row{max-width:1920px;}
+    @media only screen and (min-width:2400px){
+    .et_pb_row{padding:48px 0;}
+    .et_pb_section{padding:96px 0;}
+    }
+    @media only screen and (max-width:767px){
+    .et_pb_section{padding:22px 0;}
+    }
+
+    body #page-container .et_pb_section .et_pb_button_0{color:#000000!important;border-color:RGBA(0,0,0,0);background-color:#FFFFFF;}
+    body #page-container .et_pb_section .et_pb_button_0,body #page-container .et_pb_section .et_pb_button_0:hover{padding:0.3em 1em!important;}
+    body #page-container .et_pb_section .et_pb_button_0:before,body #page-container .et_pb_section .et_pb_button_0:after{display:none!important;}
+    .et_pb_button_0,.et_pb_button_0:after{transition:all 300ms ease 0ms;}
+    .et_pb_text_0.et_pb_text{color:#000000!important;}
+    .et_pb_text_0 h1{color:#000000!important;text-align:center;}
+    .et_pb_text_0{background-color:#FFFFFF;position:relative;padding-top:20px!important;padding-right:20px!important;padding-bottom:20px!important;padding-left:20px!important;max-width:90%;}
+    .et_pb_text_1 h3{font-size:20px;color:#000000!important;text-align:center;}
+    .et_pb_text_1{background-color:#FFFFFF;position:relative;padding-top:20px!important;padding-right:16px!important;padding-bottom:20px!important;padding-left:16px!important;max-width:44%;}
+    .et_pb_column_0{background-image:url(https://cryberit.com/wp-content/uploads/dog-644111_640.jpg);padding-top:160px;padding-bottom:160px;}
+    .et_pb_column_1{background-color:#d48b8b;padding-top:65px;padding-bottom:65px;}
+    .et_pb_column_2{background-image:url(https://cryberit.com/wp-content/uploads/dog-5858985_640.jpg);padding-top:109px;padding-bottom:109px;}
+    .et_pb_text_0.et_pb_module{margin-left:auto!important;margin-right:auto!important;}
+    .et_pb_text_1.et_pb_module{margin-left:auto!important;margin-right:auto!important;}
+/*Minu lõpp*/
+
+
+@media all{
+    p:empty:before{content:"​";}
+    }
+
+    @media all{
+    div,h2,img,p,span{margin:0;padding:0;border:0;outline:0;font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;vertical-align:baseline;background:transparent;}
+    :focus{outline:0;}
+    article{display:block;}
+    p{padding-bottom:1em;}
+    p:not(.has-background):last-of-type{padding-bottom:0;}
+    h2{color:#333;padding-bottom:10px;line-height:1em;font-weight:500;}
+    h2{font-size:26px;}
+    img{max-width:100%;height:auto;}
+    #main-content{background-color:#fff;}
+    .et_pb_pagebuilder_layout .entry-content{margin-bottom:0!important;padding-top:0;}
+    .page.et_pb_pagebuilder_layout #main-content{background-color:transparent;}
+    @media (min-width:981px){
+    .et_pb_gutters3 .et_pb_column{margin-right:5.5%;}
+    .et_pb_gutters3 .et_pb_column_1_3{width:29.6667%;}
+    .et_pb_gutters3 .et_pb_column_1_3 .et_pb_module{margin-bottom:9.27%;}
+    }
+    @media (max-width:479px){
+    .et_pb_column{width:100%!important;}
+    }
+    *{-webkit-box-sizing:border-box;box-sizing:border-box;}
+    .et_pb_column_1_3 h2{font-size:23px;}
+    .et_pb_text{word-wrap:break-word;}
+    .et_pb_row{width:80%;max-width:1080px;margin:auto;position:relative;}
+    .et_builder_inner_content{position:relative;z-index:1;}
+    .et_pb_column{float:left;background-size:cover;background-position:50%;position:relative;z-index:2;min-height:1px;}
+    .et_pb_css_mix_blend_mode_passthrough{mix-blend-mode:unset!important;}
+    .et_pb_column,.et_pb_module,.et_pb_row{background-size:cover;background-position:50%;background-repeat:no-repeat;}
+    .et_pb_with_border{position:relative;}
+    .et_pb_with_border,.et_pb_with_border .et_pb_image_wrap{border:0 solid #333;}
+    .et_pb_image{margin-left:auto;margin-right:auto;line-height:0;}
+    .et_pb_image{display:block;}
+    .et_pb_image .et_pb_image_wrap{display:inline-block;position:relative;max-width:100%;}
+    .et_pb_image img{position:relative;}
+    .et_pb_row:after{content:"";display:block;clear:both;visibility:hidden;line-height:0;height:0;width:0;}
+    .et_pb_section{background-position:50%;background-size:100%;background-size:cover;}
+    .et_pb_text>:last-child{padding-bottom:0;}
+    .et_pb_text_inner{position:relative;}
+    .et_pb_text_align_left{text-align:left;}
+    .et_pb_text_align_right{text-align:right;}
+    .et_pb_section{position:relative;background-color:#fff;}
+    .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{margin-right:0!important;}
+    .et_pb_module{-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-duration:.2s;animation-duration:.2s;}
+    @media (min-width:981px){
+    .et_pb_section{padding:4% 0;}
+    .et_pb_row{padding:2% 0;}
+    .et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child{margin-bottom:0;}
+    .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{margin-right:0!important;}
+    }
+    @media (max-width:980px){
+    .et_pb_column{width:100%;margin-bottom:30px;}
+    .et_pb_section{padding:50px 0;}
+    .et_pb_row{padding:30px 0;}
+    .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{margin-bottom:0;}
+    .et_pb_column .et_pb_module{margin-bottom:30px;}
+    .et_pb_row .et_pb_column .et_pb_module:last-child{margin-bottom:0;}
+    .et_pb_row{max-width:1080px;}
+    }
+    }
+
+    .et_pb_row{max-width:1920px;}
+    @media only screen and (min-width:2400px){
+    .et_pb_row{padding:48px 0;}
+    .et_pb_section{padding:96px 0;}
+    }
+    @media only screen and (max-width:767px){
+    .et_pb_section{padding:22px 0;}
+    }
+
+
+    .et_pb_image_0 .et_pb_image_wrap{border-width:2px;border-color:rgba(61,61,61,0.26);}
+    .et_pb_image_0{width:68%;text-align:left;margin-left:0;}
+    .et_pb_image_0.et_pb_module{margin-left:auto!important;margin-right:auto!important;}
+/*Minu */
+@media only screen and (max-width: 768px) {
+    .pais {
+        height: auto;
+    }
+    .tuhihead{
+        height: 0px;
+    }
+    .peal{
+        font-size: 25px;
+    }
+    .h {
+        font-size: 20px;
+    }
+    .punane {
+        height: 150px;
+    }
+    .sinine {
+        height: 150px;
+    }
+    .lilla {
+        height:150px;
+    }
+    .navilink {
+        width: 100px;
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .meediacontainer {
+    padding-top: 20px;
+    width: 100px;
+    }
+    .ikoon {
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    }
+    .h4{
+        font-size: 20px;
+    }
+    .meie {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .paremtuhi {
+        width: 20%;
+    }
+    .bronn {
+        font-size: 14px;
+        padding-top: 25px;
+    }
+    .keskeltuhi {
+        height: 60px;
+    }
+    .jalus {
+        height: 200px;
+    }
+    .kast3 {
+        font-size: 12px;
+    }
+    .kast1 {
+        width: 80%;
+        text-align: center;
+    }
+    .kast10 {
+        width: 80%;
+        text-align: center;
+    }
+}
+
